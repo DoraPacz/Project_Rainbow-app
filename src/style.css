@@ -27,8 +27,8 @@ li {
   border: 5px solid #c060a1;
   padding: 20px;
   margin: 20px auto;
-  border-radius: 15px;
   max-width: 600px;
+  border-radius: 35px;
   font-family: "Roboto", sans-serif;
 }
 .temperature {
@@ -41,6 +41,8 @@ li {
   width: 80px;
   position: relative;
   top: -18px;
+  border-radius: 45px;
+  background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
 }
 .units {
   position: relative;
@@ -51,6 +53,15 @@ li {
   margin-bottom: 20px;
 }
 .rainbow-icon {
-  width: 600px;
-  height: 300px;
+  width: 565px;
+  height: 270px;
+  text-align: right;
+}
+
+.signature {
+  color: #6a097d;
+}
+.signature-wrapper {
+  margin: 20px auto;
+  max-width: 600px;
 }
